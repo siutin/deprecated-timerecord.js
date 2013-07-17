@@ -1,6 +1,6 @@
 {
   "name": "timerecord",
-  "version": "0.0.2",
+  "version": "0.2.1",
   "description": "an time record object",
   "main": "./lib/timerecord.js",
   "scripts": {
@@ -8,9 +8,19 @@
   },
   "devDependencies":{
     "mocha": ">=1.2.2",
-    "expect.js": ">=0.2.0"
+    "expect.js": ">=0.2.0",
+    "underscore" : ">=1.5.1"
   },
-  "repository": "",
+  "repository": {
+      "type" : "git",
+      "url" : "https://github.com/siutin/timerecord.js.git"
+    },
+  "bugs" : {
+      "url" : "https://github.com/siutin/timerecord.js/issues"
+  },
   "author": "Martin Chan",
-  "license": "MIT"
+  "license": {
+      "type" : "MIT",
+      "urll" : "https://github.com/siutin/timerecord.js/raw/master/LICENSE"
+   }
 }
