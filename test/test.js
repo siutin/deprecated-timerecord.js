@@ -60,6 +60,23 @@ describe('TimeRecord object simple test', function(){
 
     });
 
+    it('by two Date objects.', function(){
 
+    	// start time
+    	var d1 = new Date("2013-06-17T00:00:00.000Z"); 
+    	// end time
+    	var d2 = new Date("2013-06-18T05:03:42.090Z");
+
+    	var r1 = TimeRecord.Compare(d1,d2);
+
+    	 expect(0).to.eql( r1.getYear() );
+    	 expect(1).to.eql( r1.getDay() );
+    	 expect(5).to.eql( r1.getHour() );    	 
+    	 expect(3).to.eql( r1.getMinute() );
+    	 expect(42).to.eql( r1.getSecond() );    	 
+    	 expect(90).to.eql( r1.getMillionsecond() );
+    	 expect(true).to.eql( r1.isNegative() );
+
+    });
   });
 });
