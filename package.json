@@ -1,0 +1,15 @@
+{
+  "name": "timerecord",
+  "version": "0.0.1",
+  "description": "an time record object",
+  "main": "./lib/timerecord.js",
+  "scripts": {
+    "test": ""
+  },
+  "devDependencies":{
+    "mocha": ">=1.2.2"
+  },
+  "repository": "",
+  "author": "Martin Chan",
+  "license": "MIT"
+}
