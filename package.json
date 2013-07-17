@@ -4,7 +4,7 @@
   "description": "an time record object",
   "main": "./lib/timerecord.js",
   "scripts": {
-    "test": ""
+    "test": "make test"
   },
   "devDependencies":{
     "mocha": ">=1.2.2",
