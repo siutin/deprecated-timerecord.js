@@ -1,6 +1,6 @@
 {
   "name": "timerecord",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "an time record object",
   "main": "./lib/timerecord.js",
   "scripts": {
