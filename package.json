@@ -1,13 +1,14 @@
 {
   "name": "timerecord",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "an time record object",
   "main": "./lib/timerecord.js",
   "scripts": {
-    "test": ""
+    "test": "make test"
   },
   "devDependencies":{
-    "mocha": ">=1.2.2"
+    "mocha": ">=1.2.2",
+    "expect.js": ">=0.2.0"
   },
   "repository": "",
   "author": "Martin Chan",
