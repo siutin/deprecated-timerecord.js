@@ -1,3 +1,5 @@
+# Deprecated
+
 # TimeRecord.js
   TimeRecord is a time library for nodejs
 
@@ -8,34 +10,34 @@ Install via NPM:
 npm install timerecord
 ```
 Then:
-```javascript 
+```javascript
 var TimeRecord = require("timerecord");
 ```
 
 ## Example
-   
+
 ```javascript  
 var oldDate = new Date("2013/07/17 13:52:37.596");  
 var newDate = new Date("2013/07/18 21:36:15.400");  
-	 
+
 //compare two date objects
-var ctr = TimeRecord.Compare(newDate,oldDate).getJson(); 
+var ctr = TimeRecord.Compare(newDate,oldDate).getJson();
 
 console.log( "Time difference between two dates: \n" +
-			ctr.year + " years, " + 
+			ctr.year + " years, " +
 			ctr.day + " days, " +
-			ctr.hour + " hours, " + 
+			ctr.hour + " hours, " +
 			ctr.minute + " mins, " +  
-			ctr.second + " seconds, " + 
+			ctr.second + " seconds, " +
 			ctr.millionsecond + " millionseconds (" +
-			(ctr.isnegative? "overtime":"remaining time") + ")" ); 
+			(ctr.isnegative? "overtime":"remaining time") + ")" );
 
 ```
 
 output:
 
 ```
-Time difference between two dates: 
+Time difference between two dates:
 0 years, 1 days, 7 hours, 43 mins, 37 seconds, 804 millionseconds (remaining time)
 ```
 
